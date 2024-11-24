@@ -4,6 +4,7 @@ from kivy.uix.screenmanager import Screen, ScreenManager, NoTransition
 from kivy.lang import Builder
 from kivy.core.window import Window
 import os
+from water_test_input import WaterTestInputForm
 
 # Setting default window size to (width, height) in pixels. This is a 9 x 16 aspect ratio.
 Window.size = (350, 622)
