@@ -1,0 +1,18 @@
+<CommunicationScreen>:
+    name: "communication_screen"
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+    
+        GridLayout:
+            size_hint: (1.00, 0.85)
+            rows: 2
+            cols: 1
+
+            Label:
+                index: 0
+                text: "communication screen"
+        
+        ScreenNavigationBar:
+            size_hint: (1.00, 0.15)
