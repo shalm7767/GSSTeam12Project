@@ -69,7 +69,7 @@ git push
 # When the remote repository updates as others make changes, you can run:
 git fetch
 # to update your local without making changes to it yet. This will just tell git where your
-# local repository is behind or different from the remot. To integrate the changes into your local
+# local repository is behind or different from the remote. To integrate the changes into your local
 # code, run:
 git pull
 

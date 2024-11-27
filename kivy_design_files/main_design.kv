@@ -2,6 +2,7 @@ WindowManager:
     HomeScreen:
     WaterQualityScreen:
     CommunicationScreen:
+    ResourcesScreen:
 
 
 <ScreenNavigationBar>:
@@ -22,7 +23,14 @@ WindowManager:
                 app.root.current = "waterquality_screen"
         
         Button:
+            text: "Resources"
+            font_size: 26
+            on_release: 
+                app.root.current = "resources_screen"
+        
+        Button:
             text: "Feedback"
             font_size: 26
             on_release: 
                 app.root.current = "communication_screen"
+

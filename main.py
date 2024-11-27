@@ -5,6 +5,7 @@ from kivy.lang import Builder
 from kivy.core.window import Window
 import os
 from water_test_input import WaterTestInputForm
+from educational_resources_list import EducationalResourcesList
 
 # Setting default window size to (width, height) in pixels. This is a 9 x 16 aspect ratio.
 Window.size = (350, 622)
@@ -30,6 +31,9 @@ class WaterQualityScreen(Screen):
 class CommunicationScreen(Screen):
     pass
 
+class ResourcesScreen(Screen):
+    pass
+
 # This class represents a navigation bar at the bottom of the screen used to switch between screens.
 # It sub-classes the basic kivy Widget. The buttons for it are defined in the main_design kivy file.
 # Each screen will have this component at the bottom.
@@ -44,6 +48,7 @@ class ScreenNavigationBar(Widget):
 Builder.load_file(f"{os.curdir}/kivy_design_files/homescreen.kv")
 Builder.load_file(f"{os.curdir}/kivy_design_files/waterqualityscreen.kv")
 Builder.load_file(f"{os.curdir}/kivy_design_files/communicationscreen.kv")
+Builder.load_file(f"{os.curdir}/kivy_design_files/resourcesscreen.kv")
 main_kv_design_file = Builder.load_file(f"{os.curdir}/kivy_design_files/main_design.kv")
 
 # This is the main class that sub-classes the kivy App class.  We override the default build method of the App
