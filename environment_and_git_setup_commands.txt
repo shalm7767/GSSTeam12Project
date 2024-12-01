@@ -29,7 +29,7 @@ python -m venv .venv
 # activate script are different for different OS.
 # Also note: This is the only command you will need to re-run whenever you work on the project.
 # ON WINDOWS:
-./.venv/scripts/activate.ps1
+.\.venv\Scripts\activate.ps1
 # ON MAC:
 source .venv/bin/activate
 
