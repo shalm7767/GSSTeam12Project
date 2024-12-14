@@ -1,0 +1,2 @@
+  self.load_data_from_excel('GSS_Inorganic_Chemicals_Data.xlsx')
+  
